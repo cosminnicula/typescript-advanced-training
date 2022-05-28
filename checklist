@@ -1,0 +1,11 @@
+Run with ts-node / npx ts-node
+
+For custom npm package, see 13.npm_package:
+npm init
+npm install typescript
+npx tsc --init --rootDir src --outDir lib --sourceMap --declaration --declarationMap
+npm run build
+npm publish
+npm install my-package
+
+april training (https://www.udemy.com/course/typescript-for-professionals)
